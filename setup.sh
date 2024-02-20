@@ -15,7 +15,7 @@ cd "$(dirname "$0")"
 
 DEST=$(pwd)
 
-url="http://downloads.raspberrypi.org/raspbian_lite/archive/2018-04-19-15:24"
+url="https://downloads.raspberrypi.com/raspios_lite_arm64"
 server_ip=$(ip route get 1 | awk '{print $NF;exit}')
 
 mkdir -p os/boot os/root
